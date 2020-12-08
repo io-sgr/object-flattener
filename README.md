@@ -5,6 +5,17 @@ A java library which helps you flatten java object to single-layer-dot-annotated
 * This is helpful when we need to convert a Java object to config properties file or backwards;
 * Or, if you're planning to write structured logs in JSON line, it will be handy to store key-value pairs in MDC and then unflatten them into object and eventually format it to JSON line.
 
+## How to Use
+Include following dependency in your `pom.xml`
+```xml
+<dependency>
+    <groupId>io.sgr</groupId>
+    <artifactId>object-flattener-jackson</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+Gradle is similar, I'm pretty sure you will know what to do.
+
 ## Examples
 For instance if you have a Java class defined like this:
 ```java
