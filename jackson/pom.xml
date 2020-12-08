@@ -21,7 +21,7 @@
     <parent>
         <groupId>io.sgr</groupId>
         <artifactId>object-flattener</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>object-flattener-jackson</artifactId>
